@@ -5,7 +5,7 @@
 
 class Drink : public MenuItem {
 private:
-    std::string volume; // Например, "0.5L", "1L"
+    std::string volume;
 
 public:
     Drink(const std::string& n, double price, const std::string& vol);
