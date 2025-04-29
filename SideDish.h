@@ -5,7 +5,7 @@
 
 class SideDish : public MenuItem {
 private:
-    std::string portionSize; // Например, "Small", "Large"
+    std::string portionSize;
 
 public:
     SideDish(const std::string& n, double price, const std::string& portion);
