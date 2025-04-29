@@ -26,7 +26,7 @@ double Order::calculateTotal() const {
         total += sideDish.calculatePrice();
     }
     if (orderType == OrderType::DELIVERY) {
-        total += 5.0; // Доставка
+        total += 5.0;
     }
     return total;
 }
