@@ -6,7 +6,7 @@ Drink::Drink(const std::string& n, double price, const std::string& vol)
 }
 
 double Drink::calculatePrice() const {
-    return basePrice; // Цена напитка фиксирована
+    return basePrice;
 }
 
 void Drink::display() const {
